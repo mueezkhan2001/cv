@@ -1,0 +1,190 @@
+body {
+  margin: 0px;
+  text-align: center;
+  color: #40514E;
+  background-color: inherit;
+  font-family: 'Source Serif Pro', serif;
+  /*font-family: 'Merriweather', serif; */
+}
+hr{
+  border: dotted #cccccc 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+h1 {
+  /*  Dynamic seeting the phont size */
+  color: #66BFBF;
+  font-size: 5.625rem;
+  /* 100% is equal to 16px or equal to 1em, If you need 90px; then 90px/16px = 5.625 which is equal to 562.5% or equal to 5.625em*/
+  margin: 50px auto 0 auto;
+  /* margin: top right bottom left*/
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 5%;
+  padding: 3%;
+}
+.footer-link{
+  color: #11999E;
+  padding: 3%;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.top-cloud {
+  position: absolute;
+  right: auto;
+  top: 10px;
+  width: 30rem;
+  /*animation: mymove 5s infinite; */
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.mountain {
+  padding: inherit;
+  width: 75rem;
+  height: 15rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: auto;
+  bottom: 30%;
+  width: 30rem;
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.skill-row {
+  width: 60%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.projects-img{
+  width: 25%;
+  float: left;
+  /*It will wrap text to left of the image */
+  margin-right: 30px;
+  /*It will wrap text to left of the image */
+  background-color: #1b262c;
+  border-radius: 50%;
+}
+.profile-row {
+  width: 60%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+.title1{
+  width: 50%;
+  margin: 50px auto 50px 30%;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+.projects{
+  width: 60%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.project-img{
+  width: 25%;
+  float: right;
+  /*It will wrap text to left of the image */
+  margin-left: 30px;
+  background-color: #1b262c;
+  border-radius: 70%;
+}
+.profile-img {
+  width: 5rem;
+}
+.profile-img:hover {
+  width: 12rem;
+}
+/*
+.profile-skill{
+  width: 80%;
+  margin: 50px auto 60px;
+} */
+.code-img {
+  width: 25%;
+  float: left;
+  /*It will wrap text to left of the image */
+  margin-right: 30px;
+}
+
+.skill-img {
+  width: 25%;
+  float: right;
+  /*It will wrap text to left of the image */
+  margin-left: 30px;
+  background-color: #1b262c;
+  border-radius: 50%;
+
+}
+
+.footer-link{
+  color: #11999E;
+}
+.footer-link:hover{
+  color: #eaf6f6;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11CDD4;
+	border-radius:6px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+	background-color:#11CDD4;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
